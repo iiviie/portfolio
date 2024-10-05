@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="portfolio.css" />
 
+    <style>
+     
+    </style>
   </head>
   <body>
     <nav class="navbar">
@@ -23,87 +26,104 @@
         <li><a href="#contact" aria-label="Contact">•</a></li>
       </ul>
     </nav>
-    <section class="purple">
-      <div class="intro-section">
-        <h1>Hi, I am Divyansh</h1>
-        <p>Frontend Developer</p>
-        <p>I am a Computer Science and Engineering student at the Ajay Kumar Garg Engineering College. I am a Frontend Developer with experience in React. I am currently learning Backend using Node.js, my current goals are to become an excellent full stack Developer.</p>
-        <div class="button-container">
-          <button id="contact-btn" class="btn"><span>Contact me</span></button>
-          <button id="resume-btn" class="btn"><span>Resume</span></button>
-        </div>
-      </div>
-      <div class="curve"></div>
-    </section>
 
-    <section class="skills-section">
-      <h1>Skills</h1>
-      <div>
-        <i class="fa-brands fa-html5" style="color: #B197FC; font-size: 90px;" aria-hidden="true"></i>
-        <i class="fa-brands fa-css3-alt" style="color: #B197FC; font-size: 90px;" aria-hidden="true"></i>
-        <i class="fa-brands fa-js" style="color: #B197FC; font-size: 90px;" aria-hidden="true"></i>
-        <i class="fa-brands fa-react" style="color: #B197FC; font-size: 90px;" aria-hidden="true"></i>
-        <i class="fa-brands fa-github" style="color: #B197FC; font-size: 90px;" aria-hidden="true"></i>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Git</li>
-        </ul>
-      </div>
-    </section>
-    
+        <section id="home" class="purple">
+          <div class="intro-section">
+            <h1>Hi, I am Divyansh</h1>
+            <p>Frontend Developer</p>
+            <p>I am a Computer Science and Engineering student at the Ajay Kumar Garg Engineering College. I am a Frontend Developer with experience in React. I am currently learning Backend using Node.js, my current goals are to become an excellent full stack Developer.</p>
+            <div class="button-container">
+              <button id="contact-btn" class="btn"><span>Contact me</span></button>
+              <button id="resume-btn" class="btn"><span>Resume</span></button>
+            </div>
+          </div>
+          <div class="curve"></div>
+        </section>
 
-    <section class="bubble">
-      <a href="https://github.com/iiviie" style="text-decoration: none; color: white;"><h1>Projects</h1></a>
-      <p>currently i have three major projects, they are listed below</p>
-    </section>
 
-    <section class="dark">
-      <div>
-        <a href="https://github.com/iiviie/Pokemon-Guessing-game" class="project-links" target="_blank">
-          <h1>Pokemon Game</h1>
-        </a>
-        <p>A pokemon Guessing game which uses PokiApi </p>
-      </div>
-
-      <div>
-        <a href="https://github.com/iiviie/weather-app" class="project-links" target="_blank">
-        <h1>Weather app</h1>
-        <p>Weather app which uses OpenWeatherAPI</p>
-        </a>
-      </div>
-      <div>
-        <a href="https://github.com/iiviie/ransomware-demo" class="project-links" target="_blank">
-        <h1>Ransomware</h1>
-        <p>Ransomware built in python</p>
-        </a>
-      </div>
-    </section>
        
+        <section id="skills" class="skills-section">
+          <h1>Skills</h1>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="skill-icon fab fa-html5"></i>
+              <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+              <i class="skill-icon fab fa-css3-alt"></i>
+              <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-item">
+              <i class="skill-icon fab fa-js"></i>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="skill-icon fab fa-react"></i>
+              <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+              <i class="skill-icon fab fa-git-alt"></i>
+              <span class="skill-name">Git</span>
+            </div>
+            <!-- Add more skills as needed -->
+          </div>
+        </section>
+      
+        <section id="projects" class="bubble">
+          <h1>Projects</h1>
+          <div class="project-grid">
+            <div class="project-card">
+              <img src="pokemonapp.png" alt="Pokemon Game" class="project-card-image">
+              <div class="project-card-content">
+                <h3 class="project-card-title">Pokemon Game</h3>
+                <p class="project-card-description">A pokemon Guessing game which uses PokiApi. Test your knowledge of Pokemon!</p>
+                <a href="https://github.com/iiviie/Pokemon-Guessing-game" class="project-card-link" target="_blank">View Project</a>
+              </div>
+            </div>
+        
+            <div class="project-card">
+              <img src="weatherapp.png" alt="Weather App" class="project-card-image">
+              <div class="project-card-content">
+                <h3 class="project-card-title">Weather App</h3>
+                <p class="project-card-description">Weather app which uses OpenWeatherAPI to provide real-time weather information.</p>
+                <a href="https://github.com/iiviie/weather-app" class="project-card-link" target="_blank">View Project</a>
+              </div>
+            </div>
+        
+            <div class="project-card">
+              <img src="ransomware.png" alt="Ransomware Demo" class="project-card-image">
+              <div class="project-card-content">
+                <h3 class="project-card-title">Ransomware Demo</h3>
+                <p class="project-card-description">Educational ransomware simulation built in Python. Demonstrates encryption techniques and security principles.</p>
+                <a href="https://github.com/iiviie/ransomware-demo" class="project-card-link" target="_blank">View Project</a>
+              </div>
+            </div>
+        
+            <!-- You can add more project cards here -->
+          </div>
+        </section>
+       
+        <section id="contact" class="red">
+          <h1>Get in Touch</h1>
+          <p>Email- divyanshverma158@gmail.com</p>
+        <a href="https://github.com/iiviie" style="text-decoration: none;font-family: 'Prompt', sans-serif;color: white;"> <p>github- https://github.com/iiviie</p> </a>
 
-    <section class="red">
-      <h1>Get in Touch</h1>
-      <p>Email- divyanshverma158@gmail.com</p>
-     <a href="https://github.com/iiviie" style="text-decoration: none;font-family: 'Prompt', sans-serif;color: white;"> <p>github- https://github.com/iiviie</p> </a>
-
-      <div class="wave">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
-    </section>
+          <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
+        </section>
 
     <div class="spacer layer1"></div>
 
-    <section>
-      <h1>Blog Post</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </section>
+      <section id="about">
+        <h1>Blog Post</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </section>
 
     <div class="spacer layer2 flip"></div>
 
