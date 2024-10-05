@@ -33,7 +33,7 @@
             <p>Frontend Developer</p>
             <p>I am a Computer Science and Engineering student at the Ajay Kumar Garg Engineering College. I am a Frontend Developer with experience in React. I am currently learning Backend using Node.js, my current goals are to become an excellent full stack Developer.</p>
             <div class="button-container">
-              <button id="contact-btn" class="btn"><span>Contact me</span></button>
+              <button id="contact-btn" class="btn"><a href="#contact" aria-label="Contact" style="text-decoration: none;"><span>Contact me</span></a></button>
               <button id="resume-btn" class="btn"><span>Resume</span></button>
             </div>
           </div>
@@ -105,9 +105,19 @@
        
         <section id="contact" class="red">
           <h1>Get in Touch</h1>
-          <p>Email- divyanshverma158@gmail.com</p>
-        <a href="https://github.com/iiviie" style="text-decoration: none;font-family: 'Prompt', sans-serif;color: white;"> <p>github- https://github.com/iiviie</p> </a>
-
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <h2>socials</h2>
+          <div id="social-icons">
+            <a href="https://www.instagram.com/satan.sempai/" target="_blank"><i class="fa-brands fa-instagram" style="color: #8e0dff;"></i></a>
+            <a href="https://www.linkedin.com/in/divyansh-verma-aa001b308/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #8e0dff;"></i></a>
+            <a href="https://github.com/iiviie" target="_blank"><i class="fa-brands fa-github"  style="color: #8e0dff;"></i></a>
+            <a href="mailto:divyanshverma158@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #8e0dff;"></i></a>
+          </div>
           <div class="wave">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
               <path
