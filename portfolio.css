@@ -42,7 +42,7 @@ section {
 
 .pink {
   background: #F7EFE5;
-  padding: 0;
+  padding: 60px 20px;
   overflow: hidden;
 }
 
@@ -134,8 +134,12 @@ section {
   transform: rotate(180deg);
 }
 
+/* past experiences section */
 .blob-content {
   z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .blobs {
@@ -143,6 +147,45 @@ section {
   background: url('./blobs.svg') no-repeat bottom / cover;
 }
 
+.blob-content h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.blob-content p {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pink {
+    padding: 40px 20px;
+  }
+
+  .blob-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .blob-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pink {
+    padding: 30px 15px;
+  }
+
+  .blob-content h1 {
+    font-size: 2rem;
+  }
+
+  .blob-content p {
+    font-size: 0.9rem;
+  }
+}
 /* Navbar styles, navbar is now functional and it looks so pretty */
 .navbar {
   position: fixed;
@@ -599,4 +642,125 @@ section {
 }
 #social-icons{
   font-size: 5rem;
+}
+/* Blog Post section */
+#about {
+
+  color: #f1eded;
+  padding: 60px 20px;
+}
+
+.blog-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about h1 {
+  color: #e4e4e4;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about h2 {
+  color: #CB80AB;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.recent-activities {
+  padding-left: 20px;
+}
+
+.recent-activities li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #about {
+    padding: 40px 20px;
+  }
+
+  #about h1 {
+    font-size: 2.5rem;
+  }
+
+  #about h2 {
+    font-size: 1.5rem;
+  }
+
+  .recent-activities li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    padding: 30px 15px;
+  }
+
+  #about h1 {
+    font-size: 2rem;
+  }
+
+  #about h2 {
+    font-size: 1.3rem;
+  }
+
+  .recent-activities li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Random Quote Section */
+.blobs {
+  width: 100%;
+  background: url('./blobs.svg') no-repeat bottom / cover;
+  padding: 60px 20px;
+  aspect-ratio: 960/300 ;
+  text-align: center;
+}
+
+.blobs h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.blobs p {
+  color: #fff;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments for Random Quote Section */
+@media (max-width: 768px) {
+  .blobs {
+    padding: 40px 15px;
+  }
+
+  .blobs h1 {
+    font-size: 2rem;
+  }
+
+  .blobs p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blobs {
+    padding: 30px 10px;
+  }
+
+  .blobs h1 {
+    font-size: 1.8rem;
+  }
+
+  .blobs p {
+    font-size: 0.9rem;
+  }
 }
